@@ -1,0 +1,7 @@
+hidapi>=0.14        # import hid  (device tools)
+capstone>=5.0.1     # disassemblers (mcu_dis.py, cx_dis.py, pe_func.py)
+pefile>=2023.2.7    # pe_extract.py, pe_func.py, pe_strxref.py
+
+# macOS only (Bluetooth tools: sdp_dump.py, rfcomm_scan.py)
+pyobjc-framework-IOBluetooth>=10; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=10; sys_platform == "darwin"

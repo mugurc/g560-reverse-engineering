@@ -1,0 +1,22 @@
+# Never commit proprietary firmware, ROM/EEPROM dumps or vendor software
+*.bin
+*.raw
+*.exe
+*.dll
+*.s37
+*.srec
+*.zip
+*.cab
+dumps/
+backup/
+vendor/
+
+# Python / local environments
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
